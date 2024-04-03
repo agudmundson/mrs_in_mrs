@@ -14,7 +14,7 @@ A fully automated cross-platform software application for completing the MRS in 
 ## Citation:
 If you find this tool useful, please cite:
 
-> Coming soon.
+> Susnjar, A., Kaiser, A., Simicic, D., Nossa, G., Lin, A., Oeltzschner, G., & Gudmundson, A. (2024). Reproducibility Made Easy: A Tool for Methodological Transparency and Efficient Standardized Reporting based on the proposed MRSinMRS Consensus (arXiv:2403.19594). arXiv. https://doi.org/10.48550/arXiv.2403.19594.
 
 ## Instructions:
 1. ***Installation:***
