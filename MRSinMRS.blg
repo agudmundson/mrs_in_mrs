@@ -1,0 +1,19 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is '/Users/aarongudmundson/Downloads/G8_MP/S12/S12_GABA_68_MRSinMRS.blg'
+[31] biber-darwin:340> INFO - === Sun Nov 12, 2023, 06:54:42
+[39] Biber.pm:419> INFO - Reading '/Users/aarongudmundson/Downloads/G8_MP/S12/S12_GABA_68_MRSinMRS.bcf'
+[79] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[90] Biber.pm:4419> INFO - Processing section 0
+[112] Biber.pm:4610> INFO - Looking for bibtex file '/Users/aarongudmundson/Downloads/MRSinMRS_template_single_vox/MRSinMRS.bib' for section 0
+[132] bibtex.pm:1713> INFO - LaTeX decoding ...
+[145] bibtex.pm:1519> INFO - Found BibTeX data source '/Users/aarongudmundson/Downloads/MRSinMRS_template_single_vox/MRSinMRS.bib'
+[282] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[282] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[282] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[282] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[305] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[305] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[305] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[305] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[321] bbl.pm:660> INFO - Writing '/Users/aarongudmundson/Downloads/G8_MP/S12/S12_GABA_68_MRSinMRS.bbl' with encoding 'UTF-8'
+[405] bbl.pm:763> INFO - Output to /Users/aarongudmundson/Downloads/G8_MP/S12/S12_GABA_68_MRSinMRS.bbl

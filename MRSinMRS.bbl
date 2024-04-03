@@ -1,0 +1,2205 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{bottomley_spatial_1987}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=82d387e3f85788fd3e823b689e90d25f}{%
+           family={Bottomley},
+           familyi={B\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{82d387e3f85788fd3e823b689e90d25f}
+      \strng{fullhash}{82d387e3f85788fd3e823b689e90d25f}
+      \strng{bibnamehash}{82d387e3f85788fd3e823b689e90d25f}
+      \strng{authorbibnamehash}{82d387e3f85788fd3e823b689e90d25f}
+      \strng{authornamehash}{82d387e3f85788fd3e823b689e90d25f}
+      \strng{authorfullhash}{82d387e3f85788fd3e823b689e90d25f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Spatial localization techniques are necessary for in vivo NMR spectroscopy involving heterogeneous organisms. Localization by surface coil NMR detection alone is generally inadequate for deep-lying organs due to contaminating signals from intervening surface tissues. However, localization to preselected planar volumes can be accomplished using a single selective excitation pulse in the presence of a pulsed magnetic field gradient, yielding depth-resolved surface coil spectra (DRESS). Within selected planes, DRESS are spatially restricted by the surface coil sensitivity profiles to disk-shaped volumes whose radii increase with depth, notwithstanding variations in the NMR signal density distribution. Nevertheless, DRESS is a simple and versatile localization procedure that is readily adaptable to spectral relaxation time measurements by adding inversion or spin-echo refocusing pulses or to in vivo solvent-suppressed spectroscopy of proton (1H) metabolites using a combination of chemical-selective RF pulses. Also, the spatial information gathering efficiency of the technique can be improved to provide simultaneous acquisition of spectra from multiple volumes by interleaving excitation of adjacent planes within the normal relaxation recovery period. The spatial selectivity can be improved by adding additional selective excitation spin-echo refocusing pulses to achieve full, three-dimensional point resolved spectroscopy (PRESS) in a single excitation sequence. Alternatively, for samples with short spin-spin relaxation times, DRESS can be combined with other localization schemes, such as image-selected in vivo spectroscopy (ISIS), to provide complete gradient controlled three-dimensional localization with a reduced number of sequence cycles.}
+      \field{issn}{0077-8923}
+      \field{journaltitle}{Ann N Y Acad Sci}
+      \field{title}{Spatial localization in {NMR} spectroscopy in vivo}
+      \field{volume}{508}
+      \field{year}{1987}
+      \true{nocite}
+      \field{pages}{333\bibrangedash 348}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1111/j.1749-6632.1987.tb32915.x
+      \endverb
+      \keyw{Animals,Brain,Energy Metabolism,Humans,Liver,Magnetic Resonance Spectroscopy}
+    \endentry
+    \entry{chan_hermes_2016}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=995ae37c052455ead9fa8338dc7cad4b}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Kimberly\bibnamedelima L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccbde5066cd45754b2368a744822813a}{%
+           family={Puts},
+           familyi={P\bibinitperiod},
+           given={Nicolaas\bibnamedelimb A.\bibnamedelimi J.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93c4e9e5e4d1db2cecaa4e782ddb65b8}{%
+           family={Schär},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2604438081a996a093fca21fce63d48}{%
+           family={Barker},
+           familyi={B\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7edc806a37b011354edc0b0d8359a1c}{%
+           family={Edden},
+           familyi={E\bibinitperiod},
+           given={Richard\bibnamedelimb A.\bibnamedelimi E.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1ce7b77420baa0e88b1e0fbbc6ab528a}
+      \strng{fullhash}{5d6b5247c79b38786777a6ffd77f07ea}
+      \strng{bibnamehash}{5d6b5247c79b38786777a6ffd77f07ea}
+      \strng{authorbibnamehash}{5d6b5247c79b38786777a6ffd77f07ea}
+      \strng{authornamehash}{1ce7b77420baa0e88b1e0fbbc6ab528a}
+      \strng{authorfullhash}{5d6b5247c79b38786777a6ffd77f07ea}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Purpose To investigate a novel Hadamard-encoded spectral editing scheme and evaluate its performance in simultaneously quantifying N-acetyl aspartate (NAA) and N-acetyl aspartyl glutamate (NAAG) at 3 Tesla. Methods Editing pulses applied according to a Hadamard encoding scheme allow the simultaneous acquisition of multiple metabolites. The method, called HERMES (Hadamard Encoding and Reconstruction of MEGA-Edited Spectroscopy), was optimized to detect NAA and NAAG simultaneously using density-matrix simulations and validated in phantoms at 3T. In vivo data were acquired in the centrum semiovale of 12 normal subjects. The NAA:NAAG concentration ratio was determined by modeling in vivo data using simulated basis functions. Simulations were also performed for potentially coedited molecules with signals within the detected NAA/NAAG region. Results Simulations and phantom experiments show excellent segregation of NAA and NAAG signals into the intended spectra, with minimal crosstalk. Multiplet patterns show good agreement between simulations and phantom and in vivo data. In vivo measurements show that the relative peak intensities of the NAA and NAAG spectra are consistent with a NAA:NAAG concentration ratio of 4.22:1 in good agreement with literature. Simulations indicate some coediting of aspartate and glutathione near the detected region (editing efficiency: 4.5\% and 78.2\%, respectively, for the NAAG reconstruction and 5.1\% and 19.5\%, respectively, for the NAA reconstruction). Conclusion The simultaneous and separable detection of two otherwise overlapping metabolites using HERMES is possible at 3T.}
+      \field{issn}{0740-3194}
+      \field{journaltitle}{Magn Reson Med}
+      \field{month}{7}
+      \field{number}{1}
+      \field{shorttitle}{{HERMES}}
+      \field{title}{{HERMES}: {Hadamard} {Encoding} and {Reconstruction} of {MEGA}-{Edited} {Spectroscopy}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{76}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{11\bibrangedash 19}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1002/mrm.26233
+      \endverb
+      \verb{file}
+      \verb PubMed Central Full Text PDF:files/5139/Chan et al. - 2016 - HERMES Hadamard Encoding and Reconstruction of ME.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{kreis_terminology_2021}{article}{}
+      \name{author}{19}{}{%
+        {{un=0,uniquepart=base,hash=bf427c014a2c6ebd028c16b0c437fd87}{%
+           family={Kreis},
+           familyi={K\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=048b9d12ffe2e93e2519823128953603}{%
+           family={Boer},
+           familyi={B\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82a2faa6f3833f5f071adc6a912a0c65}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={In-Young},
+           giveni={I\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33afac5aefd7d7dde800a5f840800de4}{%
+           family={Cudalbu},
+           familyi={C\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81044726567b0751cfe17130e78b2f64}{%
+           family={Graaf},
+           familyi={G\bibinitperiod},
+           given={Robin\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=5176b516bbd9afa382d0c967473a7a44}{%
+           family={Gasparovic},
+           familyi={G\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1849f37e46f063e007075dafd768caca}{%
+           family={Heerschap},
+           familyi={H\bibinitperiod},
+           given={Arend},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0a7db4002bdc95e761658f1a4e3c6f9}{%
+           family={Krššák},
+           familyi={K\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be6b6e15876b71ec2e1609418d4fff39}{%
+           family={Lanz},
+           familyi={L\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3de3c6563a94b26e14be6d3063047209}{%
+           family={Maudsley},
+           familyi={M\bibinitperiod},
+           given={Andrew\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd77e808b86a8787103ccc897ca26e01}{%
+           family={Meyerspeer},
+           familyi={M\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05192cba2bb43c054f1b16f5634835d8}{%
+           family={Near},
+           familyi={N\bibinitperiod},
+           given={Jamie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f7cd7fe983d41e8a6e131ddfa54ec15}{%
+           family={Öz},
+           familyi={Ö\bibinitperiod},
+           given={Gülin},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=701627d90675cba40ce4fd468f8ab628}{%
+           family={Posse},
+           familyi={P\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ee90721b967c486aa094593a39c356e}{%
+           family={Slotboom},
+           familyi={S\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0e825b6f99df456ee90eb6b3fbd528f}{%
+           family={Terpstra},
+           familyi={T\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c244f1d8558247844399d3b642351b0}{%
+           family={Tkáč},
+           familyi={T\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=865b2899f2f1f3a86c6a831a71bd3ea6}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8ff9d586c0c6cefd7876656eb980d6c}{%
+           family={Bogner},
+           familyi={B\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b19b6cc565936a9f0280e25646dfb53c}
+      \strng{fullhash}{5459d6b55544cf3aadda57258efb50d0}
+      \strng{bibnamehash}{5459d6b55544cf3aadda57258efb50d0}
+      \strng{authorbibnamehash}{5459d6b55544cf3aadda57258efb50d0}
+      \strng{authornamehash}{b19b6cc565936a9f0280e25646dfb53c}
+      \strng{authorfullhash}{5459d6b55544cf3aadda57258efb50d0}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{With a 40-year history of use for in vivo studies, the terminology used to describe the methodology and results of magnetic resonance spectroscopy (MRS) has grown substantially and is not consistent in many aspects. Given the platform offered by this special issue on advanced MRS methodology, the authors decided to describe many of the implicated terms, to pinpoint differences in their meanings and to suggest specific uses or definitions. This work covers terms used to describe all aspects of MRS, starting from the description of the MR signal and its theoretical basis to acquisition methods, processing and to quantification procedures, as well as terms involved in describing results, for example, those used with regard to aspects of quality, reproducibility or indications of error. The descriptions of the meanings of such terms emerge from the descriptions of the basic concepts involved in MRS methods and examinations. This paper also includes specific suggestions for future use of terms where multiple conventions have emerged or coexisted in the past.}
+      \field{annotation}{e4347 NBM-19-0223.R2}
+      \field{issn}{1099-1492}
+      \field{journaltitle}{NMR in Biomedicine}
+      \field{number}{5}
+      \field{shorttitle}{Terminology and concepts for the characterization of in vivo {MR} spectroscopy methods and {MR} spectra}
+      \field{title}{Terminology and concepts for the characterization of in vivo {MR} spectroscopy methods and {MR} spectra: {Background} and experts' consensus recommendations}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{34}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{e4347}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/nbm.4347
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:files/5122/Kreis et al. - 2021 - Terminology and concepts for the characterization .pdf:application/pdf;Snapshot:files/5123/nbm.html:text/html
+      \endverb
+      \keyw{MR spectroscopic imaging,MR spectroscopy,spectroscopic quantitation,standardization}
+    \endentry
+    \entry{lin_minimum_2021}{article}{}
+      \name{author}{22}{}{%
+        {{un=0,uniquepart=base,hash=62f874c435bb771b0caa4b8d7761aba9}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=156515f03202b26d752033ed3a4b3b35}{%
+           family={Andronesi},
+           familyi={A\bibinitperiod},
+           given={Ovidiu},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8ff9d586c0c6cefd7876656eb980d6c}{%
+           family={Bogner},
+           familyi={B\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82a2faa6f3833f5f071adc6a912a0c65}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={In-Young},
+           giveni={I\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbe1fa6a39be572c0565ea10da59bce9}{%
+           family={Coello},
+           familyi={C\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33afac5aefd7d7dde800a5f840800de4}{%
+           family={Cudalbu},
+           familyi={C\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=590f2c4be980e5c59d197a2af7d7e890}{%
+           family={Juchem},
+           familyi={J\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99213a3f96a587a058e9f7caa41fae51}{%
+           family={Kemp},
+           familyi={K\bibinitperiod},
+           given={Graham\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf427c014a2c6ebd028c16b0c437fd87}{%
+           family={Kreis},
+           familyi={K\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0a7db4002bdc95e761658f1a4e3c6f9}{%
+           family={Krššák},
+           familyi={K\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd85173fe761dc014cfc3c59b8da4cfb}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Phil},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3de3c6563a94b26e14be6d3063047209}{%
+           family={Maudsley},
+           familyi={M\bibinitperiod},
+           given={Andrew\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd77e808b86a8787103ccc897ca26e01}{%
+           family={Meyerspeer},
+           familyi={M\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=562e93b4cd160c71d5af390aaef153c0}{%
+           family={Mlynarik},
+           familyi={M\bibinitperiod},
+           given={Vladamir},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05192cba2bb43c054f1b16f5634835d8}{%
+           family={Near},
+           familyi={N\bibinitperiod},
+           given={Jamie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f7cd7fe983d41e8a6e131ddfa54ec15}{%
+           family={Öz},
+           familyi={Ö\bibinitperiod},
+           given={Gülin},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbfb45dc10374e11b482de2f81181ef5}{%
+           family={Peek},
+           familyi={P\bibinitperiod},
+           given={Aimie\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c644776161631d3a5c2b9ba45f960b93}{%
+           family={Puts},
+           familyi={P\bibinitperiod},
+           given={Nicolaas\bibnamedelima A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d654116e7547e05359d48d194cb3c46}{%
+           family={Ratai},
+           familyi={R\bibinitperiod},
+           given={Eva-Maria},
+           giveni={E\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c244f1d8558247844399d3b642351b0}{%
+           family={Tkáč},
+           familyi={T\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b707ccfe9dd9be0462e0fe6b7914a77}{%
+           family={Mullins},
+           familyi={M\bibinitperiod},
+           given={Paul\bibnamedelima G.},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86c4c8819ec71e71c81d7ad67874088f}{%
+           family={Spectroscopy},
+           familyi={S\bibinitperiod},
+           given={Experts'\bibnamedelimb Working\bibnamedelimb Group\bibnamedelimb on\bibnamedelimb Reporting\bibnamedelimb Standards\bibnamedelimb for\bibnamedelima MR},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim f\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{20628d09f1337ee4e5495f25767c449e}
+      \strng{fullhash}{20564cc0cffb453544d613cf7a8a8de2}
+      \strng{bibnamehash}{3dfe6e4df018a84313ec7ff8ac1f4d7c}
+      \strng{authorbibnamehash}{3dfe6e4df018a84313ec7ff8ac1f4d7c}
+      \strng{authornamehash}{20628d09f1337ee4e5495f25767c449e}
+      \strng{authorfullhash}{20564cc0cffb453544d613cf7a8a8de2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The translation of MRS to clinical practice has been impeded by the lack of technical standardization. There are multiple methods of acquisition, post-processing, and analysis whose details greatly impact the interpretation of the results. These details are often not fully reported, making it difficult to assess MRS studies on a standardized basis. This hampers the reviewing of manuscripts, limits the reproducibility of study results, and complicates meta-analysis of the literature. In this paper a consensus group of MRS experts provides minimum guidelines for the reporting of MRS methods and results, including the standardized description of MRS hardware, data acquisition, analysis, and quality assessment. This consensus statement describes each of these requirements in detail and includes a checklist to assist authors and journal reviewers and to provide a practical way for journal editors to ensure that MRS studies are reported in full.}
+      \field{annotation}{e4484 NBM-20-0291.R1}
+      \field{issn}{1099-1492}
+      \field{journaltitle}{NMR in Biomedicine}
+      \field{number}{5}
+      \field{shorttitle}{Minimum {Reporting} {Standards} for in vivo {Magnetic} {Resonance} {Spectroscopy} ({MRSinMRS})}
+      \field{title}{Minimum {Reporting} {Standards} for in vivo {Magnetic} {Resonance} {Spectroscopy} ({MRSinMRS}): {Experts}' consensus recommendations}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{34}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{e4484}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/nbm.4484
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:files/5126/Lin et al. - 2021 - Minimum Reporting Standards for in vivo Magnetic R.pdf:application/pdf
+      \endverb
+      \keyw{MR spectroscopy (MRS) and spectroscopic imaging (MRSI) methods,reporting guidelines}
+    \endentry
+    \entry{mescher_simultaneous_1998}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=5bbf1d2d0e82c6fc9aa8580d638e821c}{%
+           family={Mescher},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc24c079c9ac1d69d1176f04787da79b}{%
+           family={Merkle},
+           familyi={M\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5c65facf2d8fca33c215bbc3d35acb4}{%
+           family={Kirsch},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3439bf9aa866f4e6a367a8139b52c70d}{%
+           family={Garwood},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ca6d6fdece53bfb86e654fed8e03dc0}{%
+           family={Gruetter},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ca2e158fd1ddbe13d22383d1eb17254d}
+      \strng{fullhash}{20d4b8b9f49180aed638b9b207d24f11}
+      \strng{bibnamehash}{20d4b8b9f49180aed638b9b207d24f11}
+      \strng{authorbibnamehash}{20d4b8b9f49180aed638b9b207d24f11}
+      \strng{authornamehash}{ca2e158fd1ddbe13d22383d1eb17254d}
+      \strng{authorfullhash}{20d4b8b9f49180aed638b9b207d24f11}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Water suppression is typically performed in vivo by exciting the longitudinal magnetization in combination with dephasing, or by using frequency-selective coherence generation. MEGA, a frequency-selective refocusing technique, can be placed into any pulse sequence element designed to generate a Hahn spin-echo or stimulated echo, to dephase transverse water coherences with minimal spectral distortions. Water suppression performance was verified in vivo using stimulated echo acquisition mode (STEAM) localization, which provided water suppression comparable with that achieved with four selective pulses in 3,1-DRYSTEAM. The advantage of the proposed method was exploited for editing J-coupled resonances. Using a double-banded pulse that selectively inverts a J-coupling partner and simultaneously suppresses water, efficient metabolite editing was achieved in the point resolved spectroscopy (PRESS) and STEAM sequences in which MEGA was incorporated. To illustrate the efficiency of the method, the detection of γ-aminobutyric acid (GABA) was demonstrated, with minimal contributions from macromolecules and overlying singlet peaks at 4 T. The estimated occipital GABA concentration was consistent with previous reports, suggesting that editing for GABA is efficient when based on MEGA at high field strengths. © 1998 John Wiley \& Sons, Ltd.}
+      \field{issn}{1099-1492}
+      \field{journaltitle}{NMR in Biomedicine}
+      \field{number}{6}
+      \field{title}{Simultaneous in vivo spectral editing and water suppression}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{11}
+      \field{year}{1998}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{266\bibrangedash 272}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1002/(SICI)1099-1492(199810)11:6<266::AID-NBM530>3.0.CO;2-J
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:files/5141/Mescher et al. - 1998 - Simultaneous in vivo spectral editing and water su.pdf:application/pdf
+      \endverb
+      \keyw{frequency selective water suppression,GABA,human brain,in vivo 1H MRS}
+    \endentry
+    \entry{mullins_current_2014}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=1b707ccfe9dd9be0462e0fe6b7914a77}{%
+           family={Mullins},
+           familyi={M\bibinitperiod},
+           given={Paul\bibnamedelima G.},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=044b4ffbddc8ad0037bc1b4f1271777f}{%
+           family={McGonigle},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=720c4c94f205a7f010ca271108426bf9}{%
+           family={O'Gorman},
+           familyi={O\bibinitperiod},
+           given={Ruth\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccbde5066cd45754b2368a744822813a}{%
+           family={Puts},
+           familyi={P\bibinitperiod},
+           given={Nicolaas\bibnamedelimb A.\bibnamedelimi J.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d60a98705c31795ec78d135096177add}{%
+           family={Vidyasagar},
+           familyi={V\bibinitperiod},
+           given={Rishma},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=72098035118392532f6222bf6131c4f4}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={C.\bibnamedelimi John},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7edc806a37b011354edc0b0d8359a1c}{%
+           family={Edden},
+           familyi={E\bibinitperiod},
+           given={Richard\bibnamedelimb A.\bibnamedelimi E.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4abca8b24970a92764762f73a78fc58f}
+      \strng{fullhash}{a408387c584d63a62e7e8b980199d8db}
+      \strng{bibnamehash}{a408387c584d63a62e7e8b980199d8db}
+      \strng{authorbibnamehash}{a408387c584d63a62e7e8b980199d8db}
+      \strng{authornamehash}{4abca8b24970a92764762f73a78fc58f}
+      \strng{authorfullhash}{a408387c584d63a62e7e8b980199d8db}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There is increasing interest in the use of edited proton magnetic resonance spectroscopy for the detection of GABA in the human brain. At a recent meeting held at Cardiff University, a number of spectroscopy groups met to discuss the acquisition, analysis and interpretation of GABA-edited MR spectra. This paper aims to set out the issues discussed at this meeting, reporting areas of consensus around parameters and procedures in the field and highlighting those areas where differences remain. It is hoped that this paper can fulfill two needs, providing a summary of the current ‘state-of-the-art’ in the field of GABA-edited MRS at 3T using MEGA-PRESS and a basic guide to help researchers new to the field to avoid some of the pitfalls inherent in the acquisition and processing of edited MRS for GABA.}
+      \field{issn}{1053-8119}
+      \field{journaltitle}{NeuroImage}
+      \field{month}{2}
+      \field{title}{Current practice in the use of {MEGA}-{PRESS} spectroscopy for the detection of {GABA}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{86}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{43\bibrangedash 52}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.neuroimage.2012.12.004
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:files/5128/Mullins et al. - 2014 - Current practice in the use of MEGA-PRESS spectros.pdf:application/pdf;ScienceDirect Snapshot:files/5129/S1053811912011779.html:text/html
+      \endverb
+      \keyw{Edited MRS,GABA,MEGA-PRESS,MRS analysis}
+    \endentry
+    \entry{near_preprocessing_2021}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=05192cba2bb43c054f1b16f5634835d8}{%
+           family={Near},
+           familyi={N\bibinitperiod},
+           given={Jamie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e9575649fc773a145d2986e85e1af56}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Ashley\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=590f2c4be980e5c59d197a2af7d7e890}{%
+           family={Juchem},
+           familyi={J\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf427c014a2c6ebd028c16b0c437fd87}{%
+           family={Kreis},
+           familyi={K\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42cfd663edbb514b99e080ec58cb4273}{%
+           family={Marjańska},
+           familyi={M\bibinitperiod},
+           given={Małgorzata},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f7cd7fe983d41e8a6e131ddfa54ec15}{%
+           family={Öz},
+           familyi={Ö\bibinitperiod},
+           given={Gülin},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ee90721b967c486aa094593a39c356e}{%
+           family={Slotboom},
+           familyi={S\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=865b2899f2f1f3a86c6a831a71bd3ea6}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5176b516bbd9afa382d0c967473a7a44}{%
+           family={Gasparovic},
+           familyi={G\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{3e224208e0e7e5d159741072c29dc6c9}
+      \strng{fullhash}{8cbde1d4a75b114320380a3ef4faf0f8}
+      \strng{bibnamehash}{8cbde1d4a75b114320380a3ef4faf0f8}
+      \strng{authorbibnamehash}{8cbde1d4a75b114320380a3ef4faf0f8}
+      \strng{authornamehash}{3e224208e0e7e5d159741072c29dc6c9}
+      \strng{authorfullhash}{8cbde1d4a75b114320380a3ef4faf0f8}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Once an MRS dataset has been acquired, several important steps must be taken to obtain the desired metabolite concentration measures. First, the data must be preprocessed to prepare them for analysis. Next, the intensity of the metabolite signal(s) of interest must be estimated. Finally, the measured metabolite signal intensities must be converted into scaled concentration units employing a quantitative reference signal to allow meaningful interpretation. In this paper, we review these three main steps in the post-acquisition workflow of a single-voxel MRS experiment (preprocessing, analysis and quantification) and provide recommendations for best practices at each step.}
+      \field{annotation}{e4257 NBM-19-0185.R2}
+      \field{issn}{1099-1492}
+      \field{journaltitle}{NMR in Biomedicine}
+      \field{number}{5}
+      \field{shorttitle}{Preprocessing, analysis and quantification in single-voxel magnetic resonance spectroscopy}
+      \field{title}{Preprocessing, analysis and quantification in single-voxel magnetic resonance spectroscopy: experts' consensus recommendations}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{34}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{e4257}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/nbm.4257
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:files/5132/Near et al. - 2021 - Preprocessing, analysis and quantification in sing.pdf:application/pdf
+      \endverb
+      \keyw{analysis,MRS,preprocessing,processing,quantification,quantitation,water referencing}
+    \endentry
+    \entry{scheenen_towards_2008}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9c75c86445751b2c06f3bc159e9abfca}{%
+           family={Scheenen},
+           familyi={S\bibinitperiod},
+           given={Tom\bibnamedelimb W.\bibnamedelimi J.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1849f37e46f063e007075dafd768caca}{%
+           family={Heerschap},
+           familyi={H\bibinitperiod},
+           given={Arend},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f95c64d9ff9c57b2f21101125f1a283}{%
+           family={Klomp},
+           familyi={K\bibinitperiod},
+           given={Dennis\bibnamedelimb W.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e0a60dfcdc7322708344ce37646ab7f3}
+      \strng{fullhash}{951f876cd5bb630dc562ce6756c4afc1}
+      \strng{bibnamehash}{951f876cd5bb630dc562ce6756c4afc1}
+      \strng{authorbibnamehash}{951f876cd5bb630dc562ce6756c4afc1}
+      \strng{authornamehash}{e0a60dfcdc7322708344ce37646ab7f3}
+      \strng{authorfullhash}{951f876cd5bb630dc562ce6756c4afc1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{To explore the possibilities of proton spectroscopic imaging (1H-MRSI) of the human brain at 7 Tesla with adiabatic refocusing pulses.}
+      \field{issn}{1352-8661}
+      \field{journaltitle}{Magn Reson Mater Phy}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Towards {1H}-{MRSI} of the human brain at {7T} with slice-selective adiabatic refocusing pulses}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{21}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{95}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s10334-007-0094-y
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:files/5143/Scheenen et al. - 2008 - Towards 1H-MRSI of the human brain at 7T with slic.pdf:application/pdf
+      \endverb
+      \keyw{Adiabatic pulses,Chemical shift displacement error,Spectroscopic imaging}
+    \endentry
+    \entry{wilson_methodological_2019}{article}{}
+      \name{author}{49}{}{%
+        {{un=0,uniquepart=base,hash=865b2899f2f1f3a86c6a831a71bd3ea6}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=156515f03202b26d752033ed3a4b3b35}{%
+           family={Andronesi},
+           familyi={A\bibinitperiod},
+           given={Ovidiu},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2604438081a996a093fca21fce63d48}{%
+           family={Barker},
+           familyi={B\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28a2253b84f3908a3229fd0ab8db8a40}{%
+           family={Bartha},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00df1e66fc7c71efa8d4e93f3041ec3d}{%
+           family={Bizzi},
+           familyi={B\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8f822a1779d4489b9e00c70796ff630}{%
+           family={Bolan},
+           familyi={B\bibinitperiod},
+           given={Patrick\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02bc44b143a2e93efc6c4ba0bd3ed8ae}{%
+           family={Brindle},
+           familyi={B\bibinitperiod},
+           given={Kevin\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82a2faa6f3833f5f071adc6a912a0c65}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={In-Young},
+           giveni={I\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33afac5aefd7d7dde800a5f840800de4}{%
+           family={Cudalbu},
+           familyi={C\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e4946ff1ff15d6c9f535c3e44594bf2}{%
+           family={Dydak},
+           familyi={D\bibinitperiod},
+           given={Ulrike},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ed5a9a478a21b25561794d66ec91e07}{%
+           family={Emir},
+           familyi={E\bibinitperiod},
+           given={Uzay\bibnamedelima E.},
+           giveni={U\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b35fda31d0a3c7c9eab9026319df4254}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={Ramon\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddcce6623624fd1d51e49f81bcbdf883}{%
+           family={Gruber},
+           familyi={G\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92c181277b6d23eae9e1d94b2018c7d3}{%
+           family={Gruetter},
+           familyi={G\bibinitperiod},
+           given={Rolf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d400861619b7c1720b9915d08f11ff64}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Rakesh\bibnamedelima K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1849f37e46f063e007075dafd768caca}{%
+           family={Heerschap},
+           familyi={H\bibinitperiod},
+           given={Arend},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=152767ac75a13d6fee45e9011ccb05de}{%
+           family={Henning},
+           familyi={H\bibinitperiod},
+           given={Anke},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a81ee8d00338da2da59dc335b26d70d}{%
+           family={Hetherington},
+           familyi={H\bibinitperiod},
+           given={Hoby\bibnamedelima P.},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66256297a1927eae44bbbf6b3ade25d2}{%
+           family={Huppi},
+           familyi={H\bibinitperiod},
+           given={Petra\bibnamedelima S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d750f33215e8278ae4317031257bbb7b}{%
+           family={Hurd},
+           familyi={H\bibinitperiod},
+           given={Ralph\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82936084aa6b2c1fcb66718ceff7f7eb}{%
+           family={Kantarci},
+           familyi={K\bibinitperiod},
+           given={Kejal},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de842979816acc08f24343dfe05e68e8}{%
+           family={Kauppinen},
+           familyi={K\bibinitperiod},
+           given={Risto\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f95c64d9ff9c57b2f21101125f1a283}{%
+           family={Klomp},
+           familyi={K\bibinitperiod},
+           given={Dennis\bibnamedelimb W.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf427c014a2c6ebd028c16b0c437fd87}{%
+           family={Kreis},
+           familyi={K\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98d979bdc3974a7dcb26e606dfa875f4}{%
+           family={Kruiskamp},
+           familyi={K\bibinitperiod},
+           given={Marijn\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9c81a27e8d8a31908f92dbd1f92381c}{%
+           family={Leach},
+           familyi={L\bibinitperiod},
+           given={Martin\bibnamedelima O.},
+           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06534067845100fd1f366a1a5b9658cc}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Alexander\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=571011228214b64ad9c6dde7dc88d513}{%
+           family={Luijten},
+           familyi={L\bibinitperiod},
+           given={Peter\bibnamedelima R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42cfd663edbb514b99e080ec58cb4273}{%
+           family={Marjańska},
+           familyi={M\bibinitperiod},
+           given={Małgorzata},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3de3c6563a94b26e14be6d3063047209}{%
+           family={Maudsley},
+           familyi={M\bibinitperiod},
+           given={Andrew\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5efc5b541cf5011fe968efba0b775145}{%
+           family={Meyerhoff},
+           familyi={M\bibinitperiod},
+           given={Dieter\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fb2697a8891dc934c16d20b719f7c47}{%
+           family={Mountford},
+           familyi={M\bibinitperiod},
+           given={Carolyn\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b707ccfe9dd9be0462e0fe6b7914a77}{%
+           family={Mullins},
+           familyi={M\bibinitperiod},
+           given={Paul\bibnamedelima G.},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86f4fa08eb81003b7017bf3f6170f719}{%
+           family={Murdoch},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19a7d6e9bf4f8a7a74d5c034bc1f8169}{%
+           family={Nelson},
+           familyi={N\bibinitperiod},
+           given={Sarah\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=749d3a89bc297a017cdc309526ea980e}{%
+           family={Noeske},
+           familyi={N\bibinitperiod},
+           given={Ralph},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f7cd7fe983d41e8a6e131ddfa54ec15}{%
+           family={Öz},
+           familyi={Ö\bibinitperiod},
+           given={Gülin},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f4aa3e3819a88bf84663329be6644dc}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Julie\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8fe3ab662d65ecf80c333492aa69254}{%
+           family={Peet},
+           familyi={P\bibinitperiod},
+           given={Andrew\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=732cf121683d48d03518623f08a8d1bc}{%
+           family={Poptani},
+           familyi={P\bibinitperiod},
+           given={Harish},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=701627d90675cba40ce4fd468f8ab628}{%
+           family={Posse},
+           familyi={P\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d654116e7547e05359d48d194cb3c46}{%
+           family={Ratai},
+           familyi={R\bibinitperiod},
+           given={Eva-Maria},
+           giveni={E\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f5ab475ba72bcefd97a60b56c748b5d}{%
+           family={Salibi},
+           familyi={S\bibinitperiod},
+           given={Nouha},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c75c86445751b2c06f3bc159e9abfca}{%
+           family={Scheenen},
+           familyi={S\bibinitperiod},
+           given={Tom\bibnamedelimb W.\bibnamedelimi J.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80afcd5d80fc3a150d9989d296c643ee}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Ian\bibnamedelimb C.\bibnamedelimi P.},
+           giveni={I\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c695f264905836e377b24b2a0d03715}{%
+           family={Soher},
+           familyi={S\bibinitperiod},
+           given={Brian\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c244f1d8558247844399d3b642351b0}{%
+           family={Tkáč},
+           familyi={T\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f7e9eebe1970c26de2f9dd55d4a3fc9}{%
+           family={Vigneron},
+           familyi={V\bibinitperiod},
+           given={Daniel\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d9f42fc34dc00d7d7084c2120b85e75}{%
+           family={Howe},
+           familyi={H\bibinitperiod},
+           given={Franklyn\bibnamedelima A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b04dfe136f77a01a93b8266a141f5302}
+      \strng{fullhash}{1ea0fe3cff43359b537633c3c7d29c4e}
+      \strng{bibnamehash}{ecdc1a744d8e207bc1ac4ac5228f7a6e}
+      \strng{authorbibnamehash}{ecdc1a744d8e207bc1ac4ac5228f7a6e}
+      \strng{authornamehash}{b04dfe136f77a01a93b8266a141f5302}
+      \strng{authorfullhash}{1ea0fe3cff43359b537633c3c7d29c4e}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Proton MRS (1H MRS) provides noninvasive, quantitative metabolite profiles of tissue and has been shown to aid the clinical management of several brain diseases. Although most modern clinical MR scanners support MRS capabilities, routine use is largely restricted to specialized centers with good access to MR research support. Widespread adoption has been slow for several reasons, and technical challenges toward obtaining reliable good-quality results have been identified as a contributing factor. Considerable progress has been made by the research community to address many of these challenges, and in this paper a consensus is presented on deficiencies in widely available MRS methodology and validated improvements that are currently in routine use at several clinical research institutions. In particular, the localization error for the PRESS localization sequence was found to be unacceptably high at 3 T, and use of the semi-adiabatic localization by adiabatic selective refocusing sequence is a recommended solution. Incorporation of simulated metabolite basis sets into analysis routines is recommended for reliably capturing the full spectral detail available from short TE acquisitions. In addition, the importance of achieving a highly homogenous static magnetic field (B0) in the acquisition region is emphasized, and the limitations of current methods and hardware are discussed. Most recommendations require only software improvements, greatly enhancing the capabilities of clinical MRS on existing hardware. Implementation of these recommendations should strengthen current clinical applications and advance progress toward developing and validating new MRS biomarkers for clinical use.}
+      \field{issn}{1522-2594}
+      \field{journaltitle}{Magnetic Resonance in Medicine}
+      \field{number}{2}
+      \field{shorttitle}{Methodological consensus on clinical proton {MRS} of the brain}
+      \field{title}{Methodological consensus on clinical proton {MRS} of the brain: {Review} and recommendations}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{82}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{527\bibrangedash 550}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1002/mrm.27742
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:files/5134/Wilson et al. - 2019 - Methodological consensus on clinical proton MRS of.pdf:application/pdf
+      \endverb
+      \keyw{brain,consensus,metabolites,MRS,semi-LASER,shimming}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{bottomley_spatial_1987}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=82d387e3f85788fd3e823b689e90d25f}{%
+           family={Bottomley},
+           familyi={B\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{82d387e3f85788fd3e823b689e90d25f}
+      \strng{fullhash}{82d387e3f85788fd3e823b689e90d25f}
+      \strng{bibnamehash}{82d387e3f85788fd3e823b689e90d25f}
+      \strng{authorbibnamehash}{82d387e3f85788fd3e823b689e90d25f}
+      \strng{authornamehash}{82d387e3f85788fd3e823b689e90d25f}
+      \strng{authorfullhash}{82d387e3f85788fd3e823b689e90d25f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Spatial localization techniques are necessary for in vivo NMR spectroscopy involving heterogeneous organisms. Localization by surface coil NMR detection alone is generally inadequate for deep-lying organs due to contaminating signals from intervening surface tissues. However, localization to preselected planar volumes can be accomplished using a single selective excitation pulse in the presence of a pulsed magnetic field gradient, yielding depth-resolved surface coil spectra (DRESS). Within selected planes, DRESS are spatially restricted by the surface coil sensitivity profiles to disk-shaped volumes whose radii increase with depth, notwithstanding variations in the NMR signal density distribution. Nevertheless, DRESS is a simple and versatile localization procedure that is readily adaptable to spectral relaxation time measurements by adding inversion or spin-echo refocusing pulses or to in vivo solvent-suppressed spectroscopy of proton (1H) metabolites using a combination of chemical-selective RF pulses. Also, the spatial information gathering efficiency of the technique can be improved to provide simultaneous acquisition of spectra from multiple volumes by interleaving excitation of adjacent planes within the normal relaxation recovery period. The spatial selectivity can be improved by adding additional selective excitation spin-echo refocusing pulses to achieve full, three-dimensional point resolved spectroscopy (PRESS) in a single excitation sequence. Alternatively, for samples with short spin-spin relaxation times, DRESS can be combined with other localization schemes, such as image-selected in vivo spectroscopy (ISIS), to provide complete gradient controlled three-dimensional localization with a reduced number of sequence cycles.}
+      \field{issn}{0077-8923}
+      \field{journaltitle}{Ann N Y Acad Sci}
+      \field{title}{Spatial localization in {NMR} spectroscopy in vivo}
+      \field{volume}{508}
+      \field{year}{1987}
+      \true{nocite}
+      \field{pages}{333\bibrangedash 348}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1111/j.1749-6632.1987.tb32915.x
+      \endverb
+      \keyw{Animals,Brain,Energy Metabolism,Humans,Liver,Magnetic Resonance Spectroscopy}
+    \endentry
+    \entry{chan_hermes_2016}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=995ae37c052455ead9fa8338dc7cad4b}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Kimberly\bibnamedelima L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccbde5066cd45754b2368a744822813a}{%
+           family={Puts},
+           familyi={P\bibinitperiod},
+           given={Nicolaas\bibnamedelimb A.\bibnamedelimi J.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93c4e9e5e4d1db2cecaa4e782ddb65b8}{%
+           family={Schär},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2604438081a996a093fca21fce63d48}{%
+           family={Barker},
+           familyi={B\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7edc806a37b011354edc0b0d8359a1c}{%
+           family={Edden},
+           familyi={E\bibinitperiod},
+           given={Richard\bibnamedelimb A.\bibnamedelimi E.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1ce7b77420baa0e88b1e0fbbc6ab528a}
+      \strng{fullhash}{5d6b5247c79b38786777a6ffd77f07ea}
+      \strng{bibnamehash}{5d6b5247c79b38786777a6ffd77f07ea}
+      \strng{authorbibnamehash}{5d6b5247c79b38786777a6ffd77f07ea}
+      \strng{authornamehash}{1ce7b77420baa0e88b1e0fbbc6ab528a}
+      \strng{authorfullhash}{5d6b5247c79b38786777a6ffd77f07ea}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Purpose To investigate a novel Hadamard-encoded spectral editing scheme and evaluate its performance in simultaneously quantifying N-acetyl aspartate (NAA) and N-acetyl aspartyl glutamate (NAAG) at 3 Tesla. Methods Editing pulses applied according to a Hadamard encoding scheme allow the simultaneous acquisition of multiple metabolites. The method, called HERMES (Hadamard Encoding and Reconstruction of MEGA-Edited Spectroscopy), was optimized to detect NAA and NAAG simultaneously using density-matrix simulations and validated in phantoms at 3T. In vivo data were acquired in the centrum semiovale of 12 normal subjects. The NAA:NAAG concentration ratio was determined by modeling in vivo data using simulated basis functions. Simulations were also performed for potentially coedited molecules with signals within the detected NAA/NAAG region. Results Simulations and phantom experiments show excellent segregation of NAA and NAAG signals into the intended spectra, with minimal crosstalk. Multiplet patterns show good agreement between simulations and phantom and in vivo data. In vivo measurements show that the relative peak intensities of the NAA and NAAG spectra are consistent with a NAA:NAAG concentration ratio of 4.22:1 in good agreement with literature. Simulations indicate some coediting of aspartate and glutathione near the detected region (editing efficiency: 4.5\% and 78.2\%, respectively, for the NAAG reconstruction and 5.1\% and 19.5\%, respectively, for the NAA reconstruction). Conclusion The simultaneous and separable detection of two otherwise overlapping metabolites using HERMES is possible at 3T.}
+      \field{issn}{0740-3194}
+      \field{journaltitle}{Magn Reson Med}
+      \field{month}{7}
+      \field{number}{1}
+      \field{shorttitle}{{HERMES}}
+      \field{title}{{HERMES}: {Hadamard} {Encoding} and {Reconstruction} of {MEGA}-{Edited} {Spectroscopy}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{76}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{11\bibrangedash 19}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1002/mrm.26233
+      \endverb
+      \verb{file}
+      \verb PubMed Central Full Text PDF:files/5139/Chan et al. - 2016 - HERMES Hadamard Encoding and Reconstruction of ME.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{kreis_terminology_2021}{article}{}
+      \name{author}{19}{}{%
+        {{un=0,uniquepart=base,hash=bf427c014a2c6ebd028c16b0c437fd87}{%
+           family={Kreis},
+           familyi={K\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=048b9d12ffe2e93e2519823128953603}{%
+           family={Boer},
+           familyi={B\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82a2faa6f3833f5f071adc6a912a0c65}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={In-Young},
+           giveni={I\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33afac5aefd7d7dde800a5f840800de4}{%
+           family={Cudalbu},
+           familyi={C\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81044726567b0751cfe17130e78b2f64}{%
+           family={Graaf},
+           familyi={G\bibinitperiod},
+           given={Robin\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=5176b516bbd9afa382d0c967473a7a44}{%
+           family={Gasparovic},
+           familyi={G\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1849f37e46f063e007075dafd768caca}{%
+           family={Heerschap},
+           familyi={H\bibinitperiod},
+           given={Arend},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0a7db4002bdc95e761658f1a4e3c6f9}{%
+           family={Krššák},
+           familyi={K\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be6b6e15876b71ec2e1609418d4fff39}{%
+           family={Lanz},
+           familyi={L\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3de3c6563a94b26e14be6d3063047209}{%
+           family={Maudsley},
+           familyi={M\bibinitperiod},
+           given={Andrew\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd77e808b86a8787103ccc897ca26e01}{%
+           family={Meyerspeer},
+           familyi={M\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05192cba2bb43c054f1b16f5634835d8}{%
+           family={Near},
+           familyi={N\bibinitperiod},
+           given={Jamie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f7cd7fe983d41e8a6e131ddfa54ec15}{%
+           family={Öz},
+           familyi={Ö\bibinitperiod},
+           given={Gülin},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=701627d90675cba40ce4fd468f8ab628}{%
+           family={Posse},
+           familyi={P\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ee90721b967c486aa094593a39c356e}{%
+           family={Slotboom},
+           familyi={S\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0e825b6f99df456ee90eb6b3fbd528f}{%
+           family={Terpstra},
+           familyi={T\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c244f1d8558247844399d3b642351b0}{%
+           family={Tkáč},
+           familyi={T\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=865b2899f2f1f3a86c6a831a71bd3ea6}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8ff9d586c0c6cefd7876656eb980d6c}{%
+           family={Bogner},
+           familyi={B\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b19b6cc565936a9f0280e25646dfb53c}
+      \strng{fullhash}{5459d6b55544cf3aadda57258efb50d0}
+      \strng{bibnamehash}{5459d6b55544cf3aadda57258efb50d0}
+      \strng{authorbibnamehash}{5459d6b55544cf3aadda57258efb50d0}
+      \strng{authornamehash}{b19b6cc565936a9f0280e25646dfb53c}
+      \strng{authorfullhash}{5459d6b55544cf3aadda57258efb50d0}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{With a 40-year history of use for in vivo studies, the terminology used to describe the methodology and results of magnetic resonance spectroscopy (MRS) has grown substantially and is not consistent in many aspects. Given the platform offered by this special issue on advanced MRS methodology, the authors decided to describe many of the implicated terms, to pinpoint differences in their meanings and to suggest specific uses or definitions. This work covers terms used to describe all aspects of MRS, starting from the description of the MR signal and its theoretical basis to acquisition methods, processing and to quantification procedures, as well as terms involved in describing results, for example, those used with regard to aspects of quality, reproducibility or indications of error. The descriptions of the meanings of such terms emerge from the descriptions of the basic concepts involved in MRS methods and examinations. This paper also includes specific suggestions for future use of terms where multiple conventions have emerged or coexisted in the past.}
+      \field{annotation}{e4347 NBM-19-0223.R2}
+      \field{issn}{1099-1492}
+      \field{journaltitle}{NMR in Biomedicine}
+      \field{number}{5}
+      \field{shorttitle}{Terminology and concepts for the characterization of in vivo {MR} spectroscopy methods and {MR} spectra}
+      \field{title}{Terminology and concepts for the characterization of in vivo {MR} spectroscopy methods and {MR} spectra: {Background} and experts' consensus recommendations}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{34}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{e4347}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/nbm.4347
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:files/5122/Kreis et al. - 2021 - Terminology and concepts for the characterization .pdf:application/pdf;Snapshot:files/5123/nbm.html:text/html
+      \endverb
+      \keyw{MR spectroscopic imaging,MR spectroscopy,spectroscopic quantitation,standardization}
+    \endentry
+    \entry{lin_minimum_2021}{article}{}
+      \name{author}{22}{}{%
+        {{un=0,uniquepart=base,hash=62f874c435bb771b0caa4b8d7761aba9}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=156515f03202b26d752033ed3a4b3b35}{%
+           family={Andronesi},
+           familyi={A\bibinitperiod},
+           given={Ovidiu},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8ff9d586c0c6cefd7876656eb980d6c}{%
+           family={Bogner},
+           familyi={B\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82a2faa6f3833f5f071adc6a912a0c65}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={In-Young},
+           giveni={I\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbe1fa6a39be572c0565ea10da59bce9}{%
+           family={Coello},
+           familyi={C\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33afac5aefd7d7dde800a5f840800de4}{%
+           family={Cudalbu},
+           familyi={C\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=590f2c4be980e5c59d197a2af7d7e890}{%
+           family={Juchem},
+           familyi={J\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99213a3f96a587a058e9f7caa41fae51}{%
+           family={Kemp},
+           familyi={K\bibinitperiod},
+           given={Graham\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf427c014a2c6ebd028c16b0c437fd87}{%
+           family={Kreis},
+           familyi={K\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0a7db4002bdc95e761658f1a4e3c6f9}{%
+           family={Krššák},
+           familyi={K\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd85173fe761dc014cfc3c59b8da4cfb}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Phil},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3de3c6563a94b26e14be6d3063047209}{%
+           family={Maudsley},
+           familyi={M\bibinitperiod},
+           given={Andrew\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd77e808b86a8787103ccc897ca26e01}{%
+           family={Meyerspeer},
+           familyi={M\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=562e93b4cd160c71d5af390aaef153c0}{%
+           family={Mlynarik},
+           familyi={M\bibinitperiod},
+           given={Vladamir},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05192cba2bb43c054f1b16f5634835d8}{%
+           family={Near},
+           familyi={N\bibinitperiod},
+           given={Jamie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f7cd7fe983d41e8a6e131ddfa54ec15}{%
+           family={Öz},
+           familyi={Ö\bibinitperiod},
+           given={Gülin},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbfb45dc10374e11b482de2f81181ef5}{%
+           family={Peek},
+           familyi={P\bibinitperiod},
+           given={Aimie\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c644776161631d3a5c2b9ba45f960b93}{%
+           family={Puts},
+           familyi={P\bibinitperiod},
+           given={Nicolaas\bibnamedelima A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d654116e7547e05359d48d194cb3c46}{%
+           family={Ratai},
+           familyi={R\bibinitperiod},
+           given={Eva-Maria},
+           giveni={E\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c244f1d8558247844399d3b642351b0}{%
+           family={Tkáč},
+           familyi={T\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b707ccfe9dd9be0462e0fe6b7914a77}{%
+           family={Mullins},
+           familyi={M\bibinitperiod},
+           given={Paul\bibnamedelima G.},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86c4c8819ec71e71c81d7ad67874088f}{%
+           family={Spectroscopy},
+           familyi={S\bibinitperiod},
+           given={Experts'\bibnamedelimb Working\bibnamedelimb Group\bibnamedelimb on\bibnamedelimb Reporting\bibnamedelimb Standards\bibnamedelimb for\bibnamedelima MR},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim f\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{20628d09f1337ee4e5495f25767c449e}
+      \strng{fullhash}{20564cc0cffb453544d613cf7a8a8de2}
+      \strng{bibnamehash}{3dfe6e4df018a84313ec7ff8ac1f4d7c}
+      \strng{authorbibnamehash}{3dfe6e4df018a84313ec7ff8ac1f4d7c}
+      \strng{authornamehash}{20628d09f1337ee4e5495f25767c449e}
+      \strng{authorfullhash}{20564cc0cffb453544d613cf7a8a8de2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The translation of MRS to clinical practice has been impeded by the lack of technical standardization. There are multiple methods of acquisition, post-processing, and analysis whose details greatly impact the interpretation of the results. These details are often not fully reported, making it difficult to assess MRS studies on a standardized basis. This hampers the reviewing of manuscripts, limits the reproducibility of study results, and complicates meta-analysis of the literature. In this paper a consensus group of MRS experts provides minimum guidelines for the reporting of MRS methods and results, including the standardized description of MRS hardware, data acquisition, analysis, and quality assessment. This consensus statement describes each of these requirements in detail and includes a checklist to assist authors and journal reviewers and to provide a practical way for journal editors to ensure that MRS studies are reported in full.}
+      \field{annotation}{e4484 NBM-20-0291.R1}
+      \field{issn}{1099-1492}
+      \field{journaltitle}{NMR in Biomedicine}
+      \field{number}{5}
+      \field{shorttitle}{Minimum {Reporting} {Standards} for in vivo {Magnetic} {Resonance} {Spectroscopy} ({MRSinMRS})}
+      \field{title}{Minimum {Reporting} {Standards} for in vivo {Magnetic} {Resonance} {Spectroscopy} ({MRSinMRS}): {Experts}' consensus recommendations}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{34}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{e4484}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/nbm.4484
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:files/5126/Lin et al. - 2021 - Minimum Reporting Standards for in vivo Magnetic R.pdf:application/pdf
+      \endverb
+      \keyw{MR spectroscopy (MRS) and spectroscopic imaging (MRSI) methods,reporting guidelines}
+    \endentry
+    \entry{mescher_simultaneous_1998}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=5bbf1d2d0e82c6fc9aa8580d638e821c}{%
+           family={Mescher},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc24c079c9ac1d69d1176f04787da79b}{%
+           family={Merkle},
+           familyi={M\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5c65facf2d8fca33c215bbc3d35acb4}{%
+           family={Kirsch},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3439bf9aa866f4e6a367a8139b52c70d}{%
+           family={Garwood},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ca6d6fdece53bfb86e654fed8e03dc0}{%
+           family={Gruetter},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ca2e158fd1ddbe13d22383d1eb17254d}
+      \strng{fullhash}{20d4b8b9f49180aed638b9b207d24f11}
+      \strng{bibnamehash}{20d4b8b9f49180aed638b9b207d24f11}
+      \strng{authorbibnamehash}{20d4b8b9f49180aed638b9b207d24f11}
+      \strng{authornamehash}{ca2e158fd1ddbe13d22383d1eb17254d}
+      \strng{authorfullhash}{20d4b8b9f49180aed638b9b207d24f11}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Water suppression is typically performed in vivo by exciting the longitudinal magnetization in combination with dephasing, or by using frequency-selective coherence generation. MEGA, a frequency-selective refocusing technique, can be placed into any pulse sequence element designed to generate a Hahn spin-echo or stimulated echo, to dephase transverse water coherences with minimal spectral distortions. Water suppression performance was verified in vivo using stimulated echo acquisition mode (STEAM) localization, which provided water suppression comparable with that achieved with four selective pulses in 3,1-DRYSTEAM. The advantage of the proposed method was exploited for editing J-coupled resonances. Using a double-banded pulse that selectively inverts a J-coupling partner and simultaneously suppresses water, efficient metabolite editing was achieved in the point resolved spectroscopy (PRESS) and STEAM sequences in which MEGA was incorporated. To illustrate the efficiency of the method, the detection of γ-aminobutyric acid (GABA) was demonstrated, with minimal contributions from macromolecules and overlying singlet peaks at 4 T. The estimated occipital GABA concentration was consistent with previous reports, suggesting that editing for GABA is efficient when based on MEGA at high field strengths. © 1998 John Wiley \& Sons, Ltd.}
+      \field{issn}{1099-1492}
+      \field{journaltitle}{NMR in Biomedicine}
+      \field{number}{6}
+      \field{title}{Simultaneous in vivo spectral editing and water suppression}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{11}
+      \field{year}{1998}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{266\bibrangedash 272}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1002/(SICI)1099-1492(199810)11:6<266::AID-NBM530>3.0.CO;2-J
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:files/5141/Mescher et al. - 1998 - Simultaneous in vivo spectral editing and water su.pdf:application/pdf
+      \endverb
+      \keyw{frequency selective water suppression,GABA,human brain,in vivo 1H MRS}
+    \endentry
+    \entry{mullins_current_2014}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=1b707ccfe9dd9be0462e0fe6b7914a77}{%
+           family={Mullins},
+           familyi={M\bibinitperiod},
+           given={Paul\bibnamedelima G.},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=044b4ffbddc8ad0037bc1b4f1271777f}{%
+           family={McGonigle},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=720c4c94f205a7f010ca271108426bf9}{%
+           family={O'Gorman},
+           familyi={O\bibinitperiod},
+           given={Ruth\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccbde5066cd45754b2368a744822813a}{%
+           family={Puts},
+           familyi={P\bibinitperiod},
+           given={Nicolaas\bibnamedelimb A.\bibnamedelimi J.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d60a98705c31795ec78d135096177add}{%
+           family={Vidyasagar},
+           familyi={V\bibinitperiod},
+           given={Rishma},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=72098035118392532f6222bf6131c4f4}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={C.\bibnamedelimi John},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7edc806a37b011354edc0b0d8359a1c}{%
+           family={Edden},
+           familyi={E\bibinitperiod},
+           given={Richard\bibnamedelimb A.\bibnamedelimi E.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4abca8b24970a92764762f73a78fc58f}
+      \strng{fullhash}{a408387c584d63a62e7e8b980199d8db}
+      \strng{bibnamehash}{a408387c584d63a62e7e8b980199d8db}
+      \strng{authorbibnamehash}{a408387c584d63a62e7e8b980199d8db}
+      \strng{authornamehash}{4abca8b24970a92764762f73a78fc58f}
+      \strng{authorfullhash}{a408387c584d63a62e7e8b980199d8db}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There is increasing interest in the use of edited proton magnetic resonance spectroscopy for the detection of GABA in the human brain. At a recent meeting held at Cardiff University, a number of spectroscopy groups met to discuss the acquisition, analysis and interpretation of GABA-edited MR spectra. This paper aims to set out the issues discussed at this meeting, reporting areas of consensus around parameters and procedures in the field and highlighting those areas where differences remain. It is hoped that this paper can fulfill two needs, providing a summary of the current ‘state-of-the-art’ in the field of GABA-edited MRS at 3T using MEGA-PRESS and a basic guide to help researchers new to the field to avoid some of the pitfalls inherent in the acquisition and processing of edited MRS for GABA.}
+      \field{issn}{1053-8119}
+      \field{journaltitle}{NeuroImage}
+      \field{month}{2}
+      \field{title}{Current practice in the use of {MEGA}-{PRESS} spectroscopy for the detection of {GABA}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{86}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{43\bibrangedash 52}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.neuroimage.2012.12.004
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:files/5128/Mullins et al. - 2014 - Current practice in the use of MEGA-PRESS spectros.pdf:application/pdf;ScienceDirect Snapshot:files/5129/S1053811912011779.html:text/html
+      \endverb
+      \keyw{Edited MRS,GABA,MEGA-PRESS,MRS analysis}
+    \endentry
+    \entry{near_preprocessing_2021}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=05192cba2bb43c054f1b16f5634835d8}{%
+           family={Near},
+           familyi={N\bibinitperiod},
+           given={Jamie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e9575649fc773a145d2986e85e1af56}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Ashley\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=590f2c4be980e5c59d197a2af7d7e890}{%
+           family={Juchem},
+           familyi={J\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf427c014a2c6ebd028c16b0c437fd87}{%
+           family={Kreis},
+           familyi={K\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42cfd663edbb514b99e080ec58cb4273}{%
+           family={Marjańska},
+           familyi={M\bibinitperiod},
+           given={Małgorzata},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f7cd7fe983d41e8a6e131ddfa54ec15}{%
+           family={Öz},
+           familyi={Ö\bibinitperiod},
+           given={Gülin},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ee90721b967c486aa094593a39c356e}{%
+           family={Slotboom},
+           familyi={S\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=865b2899f2f1f3a86c6a831a71bd3ea6}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5176b516bbd9afa382d0c967473a7a44}{%
+           family={Gasparovic},
+           familyi={G\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{3e224208e0e7e5d159741072c29dc6c9}
+      \strng{fullhash}{8cbde1d4a75b114320380a3ef4faf0f8}
+      \strng{bibnamehash}{8cbde1d4a75b114320380a3ef4faf0f8}
+      \strng{authorbibnamehash}{8cbde1d4a75b114320380a3ef4faf0f8}
+      \strng{authornamehash}{3e224208e0e7e5d159741072c29dc6c9}
+      \strng{authorfullhash}{8cbde1d4a75b114320380a3ef4faf0f8}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Once an MRS dataset has been acquired, several important steps must be taken to obtain the desired metabolite concentration measures. First, the data must be preprocessed to prepare them for analysis. Next, the intensity of the metabolite signal(s) of interest must be estimated. Finally, the measured metabolite signal intensities must be converted into scaled concentration units employing a quantitative reference signal to allow meaningful interpretation. In this paper, we review these three main steps in the post-acquisition workflow of a single-voxel MRS experiment (preprocessing, analysis and quantification) and provide recommendations for best practices at each step.}
+      \field{annotation}{e4257 NBM-19-0185.R2}
+      \field{issn}{1099-1492}
+      \field{journaltitle}{NMR in Biomedicine}
+      \field{number}{5}
+      \field{shorttitle}{Preprocessing, analysis and quantification in single-voxel magnetic resonance spectroscopy}
+      \field{title}{Preprocessing, analysis and quantification in single-voxel magnetic resonance spectroscopy: experts' consensus recommendations}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{34}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{e4257}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/nbm.4257
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:files/5132/Near et al. - 2021 - Preprocessing, analysis and quantification in sing.pdf:application/pdf
+      \endverb
+      \keyw{analysis,MRS,preprocessing,processing,quantification,quantitation,water referencing}
+    \endentry
+    \entry{scheenen_towards_2008}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9c75c86445751b2c06f3bc159e9abfca}{%
+           family={Scheenen},
+           familyi={S\bibinitperiod},
+           given={Tom\bibnamedelimb W.\bibnamedelimi J.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1849f37e46f063e007075dafd768caca}{%
+           family={Heerschap},
+           familyi={H\bibinitperiod},
+           given={Arend},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f95c64d9ff9c57b2f21101125f1a283}{%
+           family={Klomp},
+           familyi={K\bibinitperiod},
+           given={Dennis\bibnamedelimb W.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e0a60dfcdc7322708344ce37646ab7f3}
+      \strng{fullhash}{951f876cd5bb630dc562ce6756c4afc1}
+      \strng{bibnamehash}{951f876cd5bb630dc562ce6756c4afc1}
+      \strng{authorbibnamehash}{951f876cd5bb630dc562ce6756c4afc1}
+      \strng{authornamehash}{e0a60dfcdc7322708344ce37646ab7f3}
+      \strng{authorfullhash}{951f876cd5bb630dc562ce6756c4afc1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{To explore the possibilities of proton spectroscopic imaging (1H-MRSI) of the human brain at 7 Tesla with adiabatic refocusing pulses.}
+      \field{issn}{1352-8661}
+      \field{journaltitle}{Magn Reson Mater Phy}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Towards {1H}-{MRSI} of the human brain at {7T} with slice-selective adiabatic refocusing pulses}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{21}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{95}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s10334-007-0094-y
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:files/5143/Scheenen et al. - 2008 - Towards 1H-MRSI of the human brain at 7T with slic.pdf:application/pdf
+      \endverb
+      \keyw{Adiabatic pulses,Chemical shift displacement error,Spectroscopic imaging}
+    \endentry
+    \entry{wilson_methodological_2019}{article}{}
+      \name{author}{49}{}{%
+        {{un=0,uniquepart=base,hash=865b2899f2f1f3a86c6a831a71bd3ea6}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=156515f03202b26d752033ed3a4b3b35}{%
+           family={Andronesi},
+           familyi={A\bibinitperiod},
+           given={Ovidiu},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2604438081a996a093fca21fce63d48}{%
+           family={Barker},
+           familyi={B\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28a2253b84f3908a3229fd0ab8db8a40}{%
+           family={Bartha},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00df1e66fc7c71efa8d4e93f3041ec3d}{%
+           family={Bizzi},
+           familyi={B\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8f822a1779d4489b9e00c70796ff630}{%
+           family={Bolan},
+           familyi={B\bibinitperiod},
+           given={Patrick\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02bc44b143a2e93efc6c4ba0bd3ed8ae}{%
+           family={Brindle},
+           familyi={B\bibinitperiod},
+           given={Kevin\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82a2faa6f3833f5f071adc6a912a0c65}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={In-Young},
+           giveni={I\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33afac5aefd7d7dde800a5f840800de4}{%
+           family={Cudalbu},
+           familyi={C\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e4946ff1ff15d6c9f535c3e44594bf2}{%
+           family={Dydak},
+           familyi={D\bibinitperiod},
+           given={Ulrike},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ed5a9a478a21b25561794d66ec91e07}{%
+           family={Emir},
+           familyi={E\bibinitperiod},
+           given={Uzay\bibnamedelima E.},
+           giveni={U\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b35fda31d0a3c7c9eab9026319df4254}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={Ramon\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddcce6623624fd1d51e49f81bcbdf883}{%
+           family={Gruber},
+           familyi={G\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92c181277b6d23eae9e1d94b2018c7d3}{%
+           family={Gruetter},
+           familyi={G\bibinitperiod},
+           given={Rolf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d400861619b7c1720b9915d08f11ff64}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Rakesh\bibnamedelima K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1849f37e46f063e007075dafd768caca}{%
+           family={Heerschap},
+           familyi={H\bibinitperiod},
+           given={Arend},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=152767ac75a13d6fee45e9011ccb05de}{%
+           family={Henning},
+           familyi={H\bibinitperiod},
+           given={Anke},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a81ee8d00338da2da59dc335b26d70d}{%
+           family={Hetherington},
+           familyi={H\bibinitperiod},
+           given={Hoby\bibnamedelima P.},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66256297a1927eae44bbbf6b3ade25d2}{%
+           family={Huppi},
+           familyi={H\bibinitperiod},
+           given={Petra\bibnamedelima S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d750f33215e8278ae4317031257bbb7b}{%
+           family={Hurd},
+           familyi={H\bibinitperiod},
+           given={Ralph\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82936084aa6b2c1fcb66718ceff7f7eb}{%
+           family={Kantarci},
+           familyi={K\bibinitperiod},
+           given={Kejal},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de842979816acc08f24343dfe05e68e8}{%
+           family={Kauppinen},
+           familyi={K\bibinitperiod},
+           given={Risto\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f95c64d9ff9c57b2f21101125f1a283}{%
+           family={Klomp},
+           familyi={K\bibinitperiod},
+           given={Dennis\bibnamedelimb W.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf427c014a2c6ebd028c16b0c437fd87}{%
+           family={Kreis},
+           familyi={K\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98d979bdc3974a7dcb26e606dfa875f4}{%
+           family={Kruiskamp},
+           familyi={K\bibinitperiod},
+           given={Marijn\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9c81a27e8d8a31908f92dbd1f92381c}{%
+           family={Leach},
+           familyi={L\bibinitperiod},
+           given={Martin\bibnamedelima O.},
+           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06534067845100fd1f366a1a5b9658cc}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Alexander\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=571011228214b64ad9c6dde7dc88d513}{%
+           family={Luijten},
+           familyi={L\bibinitperiod},
+           given={Peter\bibnamedelima R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42cfd663edbb514b99e080ec58cb4273}{%
+           family={Marjańska},
+           familyi={M\bibinitperiod},
+           given={Małgorzata},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3de3c6563a94b26e14be6d3063047209}{%
+           family={Maudsley},
+           familyi={M\bibinitperiod},
+           given={Andrew\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5efc5b541cf5011fe968efba0b775145}{%
+           family={Meyerhoff},
+           familyi={M\bibinitperiod},
+           given={Dieter\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fb2697a8891dc934c16d20b719f7c47}{%
+           family={Mountford},
+           familyi={M\bibinitperiod},
+           given={Carolyn\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b707ccfe9dd9be0462e0fe6b7914a77}{%
+           family={Mullins},
+           familyi={M\bibinitperiod},
+           given={Paul\bibnamedelima G.},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86f4fa08eb81003b7017bf3f6170f719}{%
+           family={Murdoch},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19a7d6e9bf4f8a7a74d5c034bc1f8169}{%
+           family={Nelson},
+           familyi={N\bibinitperiod},
+           given={Sarah\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=749d3a89bc297a017cdc309526ea980e}{%
+           family={Noeske},
+           familyi={N\bibinitperiod},
+           given={Ralph},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f7cd7fe983d41e8a6e131ddfa54ec15}{%
+           family={Öz},
+           familyi={Ö\bibinitperiod},
+           given={Gülin},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f4aa3e3819a88bf84663329be6644dc}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Julie\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8fe3ab662d65ecf80c333492aa69254}{%
+           family={Peet},
+           familyi={P\bibinitperiod},
+           given={Andrew\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=732cf121683d48d03518623f08a8d1bc}{%
+           family={Poptani},
+           familyi={P\bibinitperiod},
+           given={Harish},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=701627d90675cba40ce4fd468f8ab628}{%
+           family={Posse},
+           familyi={P\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d654116e7547e05359d48d194cb3c46}{%
+           family={Ratai},
+           familyi={R\bibinitperiod},
+           given={Eva-Maria},
+           giveni={E\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f5ab475ba72bcefd97a60b56c748b5d}{%
+           family={Salibi},
+           familyi={S\bibinitperiod},
+           given={Nouha},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c75c86445751b2c06f3bc159e9abfca}{%
+           family={Scheenen},
+           familyi={S\bibinitperiod},
+           given={Tom\bibnamedelimb W.\bibnamedelimi J.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80afcd5d80fc3a150d9989d296c643ee}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Ian\bibnamedelimb C.\bibnamedelimi P.},
+           giveni={I\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c695f264905836e377b24b2a0d03715}{%
+           family={Soher},
+           familyi={S\bibinitperiod},
+           given={Brian\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c244f1d8558247844399d3b642351b0}{%
+           family={Tkáč},
+           familyi={T\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f7e9eebe1970c26de2f9dd55d4a3fc9}{%
+           family={Vigneron},
+           familyi={V\bibinitperiod},
+           given={Daniel\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d9f42fc34dc00d7d7084c2120b85e75}{%
+           family={Howe},
+           familyi={H\bibinitperiod},
+           given={Franklyn\bibnamedelima A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b04dfe136f77a01a93b8266a141f5302}
+      \strng{fullhash}{1ea0fe3cff43359b537633c3c7d29c4e}
+      \strng{bibnamehash}{ecdc1a744d8e207bc1ac4ac5228f7a6e}
+      \strng{authorbibnamehash}{ecdc1a744d8e207bc1ac4ac5228f7a6e}
+      \strng{authornamehash}{b04dfe136f77a01a93b8266a141f5302}
+      \strng{authorfullhash}{1ea0fe3cff43359b537633c3c7d29c4e}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Proton MRS (1H MRS) provides noninvasive, quantitative metabolite profiles of tissue and has been shown to aid the clinical management of several brain diseases. Although most modern clinical MR scanners support MRS capabilities, routine use is largely restricted to specialized centers with good access to MR research support. Widespread adoption has been slow for several reasons, and technical challenges toward obtaining reliable good-quality results have been identified as a contributing factor. Considerable progress has been made by the research community to address many of these challenges, and in this paper a consensus is presented on deficiencies in widely available MRS methodology and validated improvements that are currently in routine use at several clinical research institutions. In particular, the localization error for the PRESS localization sequence was found to be unacceptably high at 3 T, and use of the semi-adiabatic localization by adiabatic selective refocusing sequence is a recommended solution. Incorporation of simulated metabolite basis sets into analysis routines is recommended for reliably capturing the full spectral detail available from short TE acquisitions. In addition, the importance of achieving a highly homogenous static magnetic field (B0) in the acquisition region is emphasized, and the limitations of current methods and hardware are discussed. Most recommendations require only software improvements, greatly enhancing the capabilities of clinical MRS on existing hardware. Implementation of these recommendations should strengthen current clinical applications and advance progress toward developing and validating new MRS biomarkers for clinical use.}
+      \field{issn}{1522-2594}
+      \field{journaltitle}{Magnetic Resonance in Medicine}
+      \field{number}{2}
+      \field{shorttitle}{Methodological consensus on clinical proton {MRS} of the brain}
+      \field{title}{Methodological consensus on clinical proton {MRS} of the brain: {Review} and recommendations}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{82}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{527\bibrangedash 550}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1002/mrm.27742
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:files/5134/Wilson et al. - 2019 - Methodological consensus on clinical proton MRS of.pdf:application/pdf
+      \endverb
+      \keyw{brain,consensus,metabolites,MRS,semi-LASER,shimming}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
