@@ -49,15 +49,15 @@ If you find this tool useful, please cite:
 	<table>
 		<tr>
 			<td style="border:hidden;"><b>Windows</b></td>
-			<td style="border:hidden;">REMY\_Windows.exe</td>
+			<td style="border:hidden;">REMY_Windows.exe</td>
 		</tr>
 		<tr>
 			<td style="border:hidden;"><b>Mac</b></td>
-			<td style="border:hidden;">REMY\_Mac</td>
+			<td style="border:hidden;">REMY_Mac</td>
 		</tr>
 		<tr>
 			<td style="border:hidden;"><b>Linux (Ubuntu)</b></td>
-			<td style="border:hidden;">REMY\_Linux\_Ubuntu.tar.gz</td>
+			<td style="border:hidden;">REMY_Linux_Ubuntu.tar.gz</td>
 		</tr>
 	</table>
 </div>
