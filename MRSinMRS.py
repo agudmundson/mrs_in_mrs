@@ -84,9 +84,8 @@ class Application(tk.Tk): 															# Create Application Class
 
 
 		## Window Label
-		self.title('Reproducibility Made Easy') 									# Label The Application Window
-
-
+		self.title('REMY') 									# Label The Application Window
+		
 		## This is the primary Grid Layout Frame
 		self.frame  = tk.Frame(self, borderwidth=10)# , width=width, height=height)
 		self.frame.grid(row=0, column=0, columnspan=2, rowspan=10, sticky=tk.W+tk.E+tk.N+tk.S)
