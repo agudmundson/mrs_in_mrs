@@ -70,10 +70,8 @@ If you find this tool useful, please cite:
 	<img width="523" height="359" src="img/REMY_ScreenShot_02.png" alt="A figure of the REMY application">
 	<p>Now that you've selected your data, choose the vendor from the "Select Vendor" dropdown menu.</p>
 	<img width="523" height="359" src="img/REMY_ScreenShot_03.png" alt="A figure of the REMY application">
-	<p>Finally, choose the file type using the next dropdown menu.</p>
-	<img width="523" height="359" src="img/REMY_ScreenShot_04.png" alt="A figure of the REMY application">	
 	<p>Finally, choose the file type using the next dropdown menu and click "Run" at the bottom.</p>
-	<img width="523" height="359" src="img/REMY_ScreenShot_05.png" alt="A figure of the REMY application">
+	<img width="523" height="359" src="img/REMY_ScreenShot_04.png" alt="A figure of the REMY application">	
 </div>
 
 ## Dependencies:
