@@ -66,21 +66,15 @@ If you find this tool useful, please cite:
 <div>
 	<p>Once downloaded, double click to run the application.</p>
 	<img width="523" height="359" src="img/REMY_ScreenShot_01.png" alt="A figure of the REMY application">
-	
 	<p>To begin select your data file using the Import Button. The output files will automatically be exported to the same folder using the same name as input file. However, use the Export option if you would like to export to a different location.</p>
 	<img width="523" height="359" src="img/REMY_ScreenShot_02.png" alt="A figure of the REMY application">
-	
 	<p>Now that you've selected your data, choose the vendor from the "Select Vendor" dropdown menu.</p>
 	<img width="523" height="359" src="img/REMY_ScreenShot_03.png" alt="A figure of the REMY application">
-	
 	<p>Finally, choose the file type using the next dropdown menu.</p>
-	<img width="523" height="359" src="img/REMY_ScreenShot_04.png" alt="A figure of the REMY application">
-	
+	<img width="523" height="359" src="img/REMY_ScreenShot_04.png" alt="A figure of the REMY application">	
 	<p>Finally, choose the file type using the next dropdown menu and click "Run" at the bottom.</p>
 	<img width="523" height="359" src="img/REMY_ScreenShot_05.png" alt="A figure of the REMY application">
-	
 </div>
-
 
 ## Dependencies:
 - Python3
