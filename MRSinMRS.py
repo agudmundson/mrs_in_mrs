@@ -761,21 +761,21 @@ class DataReaders():
 		## Calculate Spectral Width - 
 		#    Siemens doesn't automatically calculate 
 		#    and DwellTime may be named differently across versions.
-		headers                         = [] 												# Combine all the Headers
+		headers                           = [] 												# Combine all the Headers
 		headers.extend(dicom_header) 														# Dicom Header Fields
 		headers.extend(config_header)														# Config Header Fields
 		for ii in range(len(headers)): 														# Iterate over Header Fields
 			if 'dwelltime' in headers[ii].lower(): 											# Find Dwell Time
-				MRSinMRS[headers[ii]]     = MRSinMRS[headers[ii]].replace(',', '.')
+				MRSinMRS[headers[ii]]     = str(MRSinMRS[headers[ii]]).replace(',', '.')
 				MRSinMRS['SpectralWidth'] =  1 / (float(MRSinMRS[headers[ii]]) * 1e-9) 		# Calulcate Spectral Width
 
 
 		## Correct Echo/Repetition Time Units
 		if 'TE' in list(MRSinMRS.keys()):
-			MRSinMRS['TE'              ]  = MRSinMRS['TE'].replace(',', '.')
+			MRSinMRS['TE'              ]  = str(MRSinMRS['TE']).replace(',', '.')
 			MRSinMRS['TE'              ]  = float(MRSinMRS['TE'   ]) / 1e3					# Echo Time
 		if 'TR' in list(MRSinMRS.keys()):
-			MRSinMRS['TR'              ]  = MRSinMRS['TR'].replace(',', '.')
+			MRSinMRS['TR'              ]  = str(MRSinMRS['TR']).replace(',', '.')
 			MRSinMRS['TR'              ]  = float(MRSinMRS['TR'   ]) / 1e3  				# Repetition Time
 
 		write_log(log, 'Data Read: Siemens Twix - Returning MRSinMRS Dictionary') 			# Log - Note Success
