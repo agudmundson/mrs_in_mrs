@@ -1,9 +1,8 @@
 # Reproducibility Made Easy:
-The ***Reproducibility Made Easy (RMY)*** application provides researchers and clinicians the ability to comprehensively document study parameters. It automates table population from a single datafile, facilitating result replication, and method evaluation. This software also generates a straight-forward MRS methods section which ensures reporting accuracy and result interpretability.
+The ***Reproducibility Made Easy (REMY)*** application provides researchers and clinicians the ability to comprehensively document study parameters. It automates table population from a single datafile, facilitating result replication, and method evaluation. This software also generates a straight-forward MRS methods section which ensures reporting accuracy and result interpretability.
 
 ## Summary:
 At the 2023 inaugural MRS Hackathon, Antonia Susnjar suggested a need for an automated software pipeline to encourage adherence to the consensus Minimum Reporting Standards in Magnetic Resonance Spectroscopy (MRS in MRS). 
-
 
 ## Keywords:
 Magnetic Resonance Spectroscopy, Automated Software, MRS in MRS Consensus
