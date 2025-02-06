@@ -14,6 +14,7 @@ import subprocess 																	# Running Terminal Commands
 import importlib 																	# Verification of Installed Modules
 import logging 																		# Log File
 import shutil 																		# Copy, Move, "which $program"
+import json   																		# Handle JSON files 
 import copy  																		# Copying Objects
 import glob 																		# Bash-like File Calls
 import sys 																			# Interact with System
@@ -84,8 +85,9 @@ class Application(tk.Tk): 															# Create Application Class
 
 
 		## Window Label
-		self.title('REMY') 									# Label The Application Window
-		
+		self.title('Reproducibility Made Easy') 									# Label The Application Window
+
+
 		## This is the primary Grid Layout Frame
 		self.frame  = tk.Frame(self, borderwidth=10)# , width=width, height=height)
 		self.frame.grid(row=0, column=0, columnspan=2, rowspan=10, sticky=tk.W+tk.E+tk.N+tk.S)
@@ -177,7 +179,7 @@ class Application(tk.Tk): 															# Create Application Class
 		## User Data Selections - Vendor
 		self.vendor     = tk.StringVar()
 		self.vendor.set('Select Vendor')
-		self.vendor_opt = ['Siemens', 'Philips', 'GE', 'Bruker']
+		self.vendor_opt = ['Siemens', 'Philips', 'GE', 'Bruker', 'NIfTI']
 		self.command_01 = tk.OptionMenu(self.command_frame, self.vendor, *self.vendor_opt, command=self.command_button_01)
 		self.command_01.config(height=2, width=30)
 		self.command_01.grid(row=0, column=1, sticky=tk.W+tk.E+tk.N+tk.S)
@@ -191,7 +193,8 @@ class Application(tk.Tk): 															# Create Application Class
 						  'Siemens RDA (.rda)'  ,  											# Siemens RDA   (.rda)
 						  'Philips (.spar)'     ,  											# Philips SPAR  (.sdat or .data/.list)
 						  'GE (.7)'             ,  											# GE      Pfile (.7)
-						  'Bruker (method)'     ]  											# Bruker  method
+						  'Bruker (method)'     ,											# Bruker  method
+						  'NIfTI (.json)']  												# NIfTI  JSON
 		# 				  'Bruker (2dseq)'      ]  											# Bruker  2dseq (Not active)
 		self.command_02 = tk.OptionMenu(self.command_frame, self.dtype, *self.dtype_opt, command=self.command_button_02)
 		self.command_02.config(height=2, width=30)
@@ -227,7 +230,8 @@ class Application(tk.Tk): 															# Create Application Class
 					filepath.replace('.data', '.spar'))
 		filepath = (filepath.replace('.LIST', '.SPAR') if '.LIST' in filepath else   		# Must be .spar - User gave .list
 					filepath.replace('.list', '.spar'))
-
+		filepath = (filepath.replace('.NII' , '.JSON') if '.NII'  in filepath else  		# Must be .json - User gave .nii
+					filepath.replace('.nii' , '.json'))
 
 		if os.path.exists(filepath): 														# Ensure Path Exists
 			self.import_fpath = copy.deepcopy(filepath) 									# Import Path
@@ -285,6 +289,9 @@ class Application(tk.Tk): 															# Create Application Class
 		elif selection.lower() == 'bruker': 												# Bruker
 			self.dtype.set('{}: Select (method)'.format(selection))							# Method (2dseq?)
 
+		elif selection.lower() == 'nifti': 													# NIfTI
+			self.dtype.set('{}: Select (.json)'.format(selection))							# JSON
+
 
 	## Datatype Selection Button Function
 	def command_button_02(self, selection):
@@ -293,13 +300,13 @@ class Application(tk.Tk): 															# Create Application Class
 															 								# Vendor Matched to avoid misclicks
 		vendor_dtypes = {'siemens': ['Siemens TWIX (.dat)'  , 								# Siemens Twix .dat
 									 'Siemens Dicom (.ima)' , 								# Siemens Dicom .ima
-									 'Siemens RDA (.rda)' ], 								# Siemens RDA .rda
+									 'Siemens RDA (.rda)'   ], 								# Siemens RDA .rda
 						 'philips': ['Philips (.spar)'      ],								# Philips sdat/spar or data/list
 						 'ge'     : ['GE (.7)'              ], 								# GE Pfile
-						 'bruker' : ['Bruker (method)'      ]} 								# Bruker Method File
+						 'bruker' : ['Bruker (method)'      ], 								# Bruker Method File
+						 'nifti'  : ['NIfTI (.json)'         ]} 							# NIfTI JSON side car file
 		
 		vendor_dtypes = vendor_dtypes[self.vendor_selection.lower()] 						# Current Vendor Datatypes
-
 		if selection not in vendor_dtypes: 													# User accidentally selected wrong datatype
 			self.command_03['text'] = 'Please Select Appropriate Datatype' 					# Update Text
 			return
@@ -313,18 +320,19 @@ class Application(tk.Tk): 															# Create Application Class
 		self.dtype_selection = self.dtype_selection.replace('/', '_') 						# Remove / if spar/sdat 
 		self.dtype_selection = self.dtype_selection.replace('.', '') 						# Remove any period preceding extension
 
+
 	## Running the Script Button
 	def command_button_03(self):
 
 		self.command_03['text'] = 'Running...' 												# Update Text
 
 		## Update Button Selections
-		possible_vendors = ['siemens', 'philips', 'ge', 'bruker'] 							# Currently Supported Vendors 
+		possible_vendors = ['siemens', 'philips', 'ge', 'bruker', 'nifti'] 					# Currently Supported Vendors 
 		if self.vendor_selection.lower() not in possible_vendors: 							# User dit not Select Supported Vendors 
 			self.command_03['text'] = 'Please select Vendor and Datatype' 					# Update Text
 			return
 
-		possible_dtypes  = ['spar', 'dat', 'ima', 'rda', '7', 'method', '2dseq']			# Currently Supported Datatypes 
+		possible_dtypes  = ['spar', 'dat', 'ima', 'rda', '7', 'method', '2dseq', 'json']	# Currently Supported Datatypes 
 		if self.dtype_selection.lower()  not in possible_dtypes:							# User did not Select Supported Datatypes
 			self.command_03['text'] = 'Please select Datatype' 								# Update Text
 			return
@@ -360,7 +368,7 @@ class Application(tk.Tk): 															# Create Application Class
 		## Begin Writing Log File 
 		write_log(log, ' ') 																# Log - Intentional Empty Line
 		write_log(log, '--'*30)  															# Log - Dashed Line to Separate Entries
-		write_log(log, 'Reproducibility Made Easy is Starting..') 							# Log - Reproducibility Made Easy
+		write_log(log, 'Reproducibility Made Easy (REMY) is Starting..') 					# Log - Reproducibility Made Easy
 
 		if self.exe == True:
 			write_log(log, 'Software Running with Application') 							# Log - Running from Application
@@ -425,6 +433,12 @@ class Application(tk.Tk): 															# Create Application Class
 									   'developed by Tomáš Pšorn\n\t'         +				# Log - BrukerAPI Creator
 									   'github.com/isi-nmr/brukerapi-python'  )				# Log - BrukerAPI Address
 						MRSinMRS, log = self.DRead.bruker_2dseq(import_text, log) 			# Brukler Data Reader from BrukerAPI
+
+				elif self.vendor_selection.lower() == 'nifti': 								# NIfTI
+					write_log(log, 'Data Read: NIfTI json side car')						# Log - NIfTI JSON side car
+					write_log(log, 'Data Read: NIfTI ** Ensure .json was provided **')		# Log - NIfTI JSON side car check
+					write_log(log, ' ') 													# Log - NIfTI JSON Intentional Empty Line
+					MRSinMRS, log = self.DRead.nifti_json(import_text, log) 				# NIfTI JSON Reader
 
 				write_log(log, 'Data Read: Completed\n') 									# Log - Successfully Read Data
 
@@ -551,6 +565,7 @@ class Application(tk.Tk): 															# Create Application Class
 		write_log(log, '--'*30)  															# Log - Dashed Line to Separate Entries
 		self.command_03['text'] = 'Completed!' 												# Note Completion
 
+
 class Table():
 	def __init__(self, ):
 		
@@ -595,6 +610,8 @@ class Table():
 							 	  'Nucleus'         : ['nucleus'              ]} 			# 
 		known_diffs['ge'     ] = {'FieldStrength'   : ['rhr_rh_ps_mps_freq'   ]} 			# GE
 		known_diffs['bruker' ] = {} 														# Bruker
+		known_diffs['nifti'  ] = {'FieldStrength'   : ['SpectrometerFrequency'],			# NIfTI
+								  'Nucleus'         : ['ResonantNucleus'      ]} 			# 
 
 		known_diffs            = known_diffs[vendor] 	 									# Current Vendor	
 		known_diffs_keys       = list(known_diffs.keys()) 									# List of all Known Differences
@@ -656,11 +673,11 @@ class Table():
 						   'philips_spar' : 1e6, 											# Philips Spar
 						   'ge_7'         : 1e7, 											# GE Pfile
 						   'bruker_method': 1  , 											# Bruker Method
-						   'bruker_2dseq' : 1  ,} 											# Bruker 2dseq
+						   'bruker_2dseq' : 1  , 											# Bruker 2dseq
+						   'nifti_json'   : 1  ,} 											# NIfTI JSON
 
 			gyro        = gyro[MRSinMRS['Nucleus']] 										# Nucleus Gyromagnetic Ratio
 			vendor_divs = vendor_divs['{}_{}'.format(vendor, datatype)] 					# Units
-
 			MRSinMRS['FieldStrength'] = float(MRSinMRS['FieldStrength']) / gyro 			# Field Strenth in T
 			MRSinMRS['FieldStrength'] = MRSinMRS['FieldStrength'] / vendor_divs		    	# Field Strenth in T
 			MRSinMRS['FieldStrength'] = np.round(MRSinMRS['FieldStrength'], 2) 				# Field Strenth rounded
@@ -711,6 +728,7 @@ class Table():
 				print('Error: ', e) 														# Note Error
 
 		return latex_content, errors
+
 
 class DataReaders():
 	def __init__(self,):
@@ -765,16 +783,16 @@ class DataReaders():
 		headers.extend(config_header)														# Config Header Fields
 		for ii in range(len(headers)): 														# Iterate over Header Fields
 			if 'dwelltime' in headers[ii].lower(): 											# Find Dwell Time
-				MRSinMRS[headers[ii]]     = MRSinMRS[headers[ii]].replace(',', '.')
+				MRSinMRS[headers[ii]]     = str(MRSinMRS[headers[ii]]).replace(',', '.')
 				MRSinMRS['SpectralWidth'] =  1 / (float(MRSinMRS[headers[ii]]) * 1e-9) 		# Calulcate Spectral Width
 
 
 		## Correct Echo/Repetition Time Units
 		if 'TE' in list(MRSinMRS.keys()):
-			MRSinMRS['TE'              ]  = MRSinMRS['TE'].replace(',', '.')
+			MRSinMRS['TE'              ]  = str(MRSinMRS['TE']).replace(',', '.')
 			MRSinMRS['TE'              ]  = float(MRSinMRS['TE'   ]) / 1e3					# Echo Time
 		if 'TR' in list(MRSinMRS.keys()):
-			MRSinMRS['TR'              ]  = MRSinMRS['TR'].replace(',', '.')
+			MRSinMRS['TR'              ]  = str(MRSinMRS['TR']).replace(',', '.')
 			MRSinMRS['TR'              ]  = float(MRSinMRS['TR'   ]) / 1e3  				# Repetition Time
 
 		write_log(log, 'Data Read: Siemens Twix - Returning MRSinMRS Dictionary') 			# Log - Note Success
@@ -818,8 +836,8 @@ class DataReaders():
 		MRSinMRS['TE'             ]*= 1e3 													# Units Milliseconds
 
 		try:
-			MRSinMRS['TI'             ] = hdr['_standard_data'  ]['InversionTime'         ] # TI
-			MRSinMRS['TI'             ]*= 1e3 												# Units Milliseconds
+			MRSinMRS['TI'         ] = hdr['_standard_data'  ]['InversionTime'         ] 	# TI
+			MRSinMRS['TI'         ]*= 1e3 													# Units Milliseconds
 		except:
 			write_log(log, 'Data Read: Inversion Time Not Included') 						# Log - Inversion time not included
 
@@ -1003,7 +1021,9 @@ class DataReaders():
 		field_strength = MRSinMRS['$PVM_FrqRef'].split('; ')[1].split(' ')[0] 				# Bruker Field Strength
 		field_strength = float(field_strength) 												# Bruker Field Strength in T
 
-		Nucleus        = MRSinMRS['$PVM_Nucleus1Enum'].replace(';', '')
+		WS             = MRSinMRS['$PVM_WsMode'      ].replace(';', '') 					# Water Suppression
+		Nucleus        = MRSinMRS['$PVM_Nucleus1Enum'].replace(';', '') 					# Nucleus
+		
 		if '1H' in Nucleus:
 			Nucleus = '1H'
 		elif '2H' in Nucleus:
@@ -1052,7 +1072,36 @@ class DataReaders():
 		MRSinMRS['lr_size'         ] = float(vox_dims[1]) 									# LR Size
 		MRSinMRS['cc_size'         ] = float(vox_dims[2]) 									# CC Size
 		
+		MRSinMRS['WaterSuppression'] = WS 													# Water Suppression
+
 		return MRSinMRS, log
+
+	def nifti_json(self, fname, log):
+
+		## NIfTI JSON
+		write_log(log, 'Data Read: NIfTI JSON ') 											# Log - 
+
+		try:
+			with open(fname, 'r') as json_file: 											# Open NIfTI JSON File
+				MRSinMRS = json.load(json_file) 											# Load JSON Data
+				write_log(log, 'Data Read: NIfTI JSON - Data Reader Successful') 			# Log Note Success
+
+		except Exception as e:																# Failed Reading NIfTI JSON File
+			write_log(log, 'Data Read: NIfTI JSON - Data Reader Failed') 					# Log - Note Failure
+			write_log(log, 'Data Read: NIfTI JSON - NOTE** Ensure .json was provided')		# Log - Note Failure
+			write_log(log, 'Data Read: NIfTI JSON - Error - {}'.format(e)) 					# Log - Error 
+
+		json_items = list(MRSinMRS.keys())
+		if len(json_items) < 1: 															# JSON read failed
+			MRSinMRS = {} 																	# Empty MRSinMRS dict
+			return MRSinMRS, log															# Return MRSinMRS Dictionary
+
+		for ii  in range(len(json_items)):
+			if isinstance(MRSinMRS[json_items[ii]], list):
+				MRSinMRS[json_items[ii]] = MRSinMRS[json_items[ii]][0]
+
+		write_log(log, 'Data Read: NIfTI JSON - Returning MRSinMRS Dictionary') 			# Log - Note Success
+		return MRSinMRS, log																# Return MRSinMRS Dictionary
 
 
 if __name__ == '__main__':
